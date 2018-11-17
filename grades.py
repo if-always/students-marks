@@ -2,7 +2,7 @@ import random
 import numpy as np
 import pandas as pd
 
-origin_datas = pd.read_csv('grade.csv',encoding="gb2312" )
+origin_datas = pd.read_csv('origin_grades.csv',encoding="gb2312" )
 
 
 #print(len(origin_datas))
@@ -99,4 +99,4 @@ new_datas_sort = new_datas.sort_values("附加总分",ascending=True)  #ascendin
 #print(new_datas_sort)
 
 
-#new_datas.to_csv("grades.csv",encoding="gb2312")
+#new_datas.to_csv("new_grades.csv",encoding="gb2312")
